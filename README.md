@@ -4,8 +4,8 @@
 This project was developed as part of the Intel Unnati Industrial Training program. The goal was to fine-tune the "NousResearch/Llama-2-7b-chat-hf" language model using the "llamafactory/tiny-supervised-dataset" dataset. Through this project, we gained practical experience in model training and optimization, specifically within constrained computational environments.
 
 ## Model and Dataset
-- **Base Model:** NousResearch/Llama-2-7b-chat-hf
-- **Fine-Tuning Dataset:** llamafactory/tiny-supervised-dataset
+- **Base Model:** NousResearch/Llama-2-7b-chat-hf (https://huggingface.co/NousResearch/Llama-2-7b-chat-hf)
+- **Fine-Tuning Dataset:** llamafactory/tiny-supervised-dataset (https://huggingface.co/datasets/llamafactory/tiny-supervised-dataset)
 
 ## Project Objectives
 - Fine-tune the Llama-2 model to improve its performance on the specified dataset.
