@@ -20,18 +20,18 @@ This project was developed as part of the Intel Unnati Industrial Training progr
 ## Technical Details
   **Custom Environment and Kernel Preparation**
     *Terminal Commands*
--      1. conda create -n itrex python=3.10 -y (creating a conda environment)
--      2. conda activate itrex                 (activating the environment)
--      3. pip install intel-extension-for-transformers
--      4. git clone https://github.com/intel/intel-extension-for-transformers.git 
--      5. cd ./intel-extension-for-transformers/intel_extension_for_transformers/neural_chat/
--      6. pip install -r requirements_cpu.txt
--      7. pip install -r requirements.txt
--      8. huggingface-cli login
--      9. python3 -m pip install jupyter ipykernel 
--      10. python3 -m ipykernel install --name neural-chat-3 --user
--      11. pip install torch peft==0.4.0 bitsandbytes==0.40.2 transformers==4.31.0 trl==0.4.7 accelerate einops 
--      12. pip install datasets
+-       conda create -n itrex python=3.10 -y 
+-       conda activate itrex                 
+-       pip install intel-extension-for-transformers
+-       git clone https://github.com/intel/intel-extension-for-transformers.git 
+-       cd ./intel-extension-for-transformers/intel_extension_for_transformers/neural_chat/
+-       pip install -r requirements_cpu.txt
+-       pip install -r requirements.txt
+-       huggingface-cli login
+-       python3 -m pip install jupyter ipykernel 
+-       python3 -m ipykernel install --name neural-chat-3 --user
+-       pip install torch peft==0.4.0 bitsandbytes==0.40.2 transformers==4.31.0 trl==0.4.7 accelerate einops 
+-       pip install datasets
 
 - **Tokenizer and Model Preparation:**
   ```python
