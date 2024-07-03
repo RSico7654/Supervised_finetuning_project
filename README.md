@@ -84,7 +84,7 @@ peft_config = LoraConfig(
 
 trainer = SFTTrainer(
     model=model,
-    train_dataset=training_dataset,  # Replace with your actual training dataset
+    train_dataset=training_dataset,  
     peft_config=peft_config,
     dataset_text_field="Text",
     max_seq_length=690,
